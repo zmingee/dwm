@@ -30,16 +30,13 @@ static const Rule rules[] = {
     /* { class, instance, title, tags mask, isfloating, monitor } */
 
 	{ "Pavucontrol", "pavucontrol", NULL, 0, 1, -1 },
-
     { "console", NULL, NULL, 1 << 0, 0, 0 },
-
 	{ "Claws-mail", "claws-mail", NULL, 1 << 1, 0, 1 },
 	{ "Pidgin", "Pidgin", NULL, 1 << 1, 0, 1 },
 	{ "Pidgin", "Pidgin", "Buddy List", 1 << 1, 1, 1 },
     { "khal", NULL, NULL, 1 << 1, 0, 1 },
 	{ "Slack", NULL, NULL, 1 << 1, 0, 1 },
     { "Ripcord", "ripcord", NULL, 1 << 1, 0, 1 },
-
 	{ "Zeal", NULL, NULL, 1 << 3, 0, 1 },
 };
 
